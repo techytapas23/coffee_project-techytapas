@@ -1,0 +1,88 @@
+body{
+    background: url('sign\ up\ background.jpg');
+    width:100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+
+.signup{
+    width: 380px;
+    height:700px;
+    margin: auto;
+    background: white;
+    border-radius: 3px;
+}
+
+
+.login{
+    width: 380px;
+    height: 400px;
+    margin: auto;
+    background: white;
+    border-radius: 3px;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+
+form{
+    width: 300px;
+    margin-left: 20px;
+
+}
+
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+
+
+
+form input{
+    width: 100%;
+    padding: 7%;
+    border:none;
+    border: 1px solid gray;
+    outline: none;
+}
+
+
+.submit{
+
+    width: 340px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    background-color: #ff7200;
+    color: white;
+    cursor: pointer;
+    font-size: larger;
+
+
+}
+
+
+input[type="submit"]:hover{
+    color:white;
+    background: rgb(13, 211, 247);
+
+}
+
+.submit{
+   
+    text-align: center;
+    background-color: #ff7200;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
